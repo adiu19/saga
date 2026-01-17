@@ -20,6 +20,7 @@ type Choice struct {
 }
 
 type Result struct {
+	ReqID    string
 	Response string
 	Tokens   []string
 }
